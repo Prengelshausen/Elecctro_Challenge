@@ -1,14 +1,21 @@
-.inp {
+.addtodo {
     display: flex;
     justify-content: center;
     width: 100%;
 }
 
-input {
+.inp {
     padding: 5px;
     margin-right: 10px;
+    width: 25%;
 }
 
 button {
+    background-color: #2196f3;
+    border: none;
+    color: #fff;
+    box-shadow: 0 2px 5px 0 rgba(0,0,0,0.2);
+    border-radius: 3px;
+    cursor: pointer;
     padding: 5px;
 }

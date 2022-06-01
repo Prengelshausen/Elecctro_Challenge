@@ -1,0 +1,14 @@
+li {
+    display: flex;
+    justify-content: space-between;
+    padding: 10px;
+    background-color: #fff;
+}
+
+li:nth-of-type(odd) {
+    background-color: rgba(0, 0, 0, .05);
+}
+
+input {
+    margin-right: 10px;
+}
