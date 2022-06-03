@@ -12,3 +12,12 @@ li:nth-of-type(odd) {
 input {
     margin-right: 10px;
 }
+
+.btnDelete {
+    background-color: #ff5252;
+}
+
+.btnEdit {
+    background-color: #4caf50;
+    margin-right: 5px;
+}

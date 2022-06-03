@@ -10,7 +10,7 @@ function CreateTaskInput({setTodo}) {
     const todoname = nameRef.current.value
     if (todoname) {
       setTodo(origTodos => {
-        let updatedTodos = [...origTodos, {id: uuidv4() ,name: todoname, complete: false}];
+        let updatedTodos = [...origTodos, {id: uuidv4() ,name: todoname, complete: false, timestamp: new Date()}];
         return updatedTodos;
       })
     }
