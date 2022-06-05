@@ -51,10 +51,12 @@ function App() {
   }
 
   function filterCompleted(e) {
+    let origTodos = todos;
     if (e.target.checked) {
       let filtered = todos.filter(todo => !todo.complete)
       setTodo(filtered)
-    }
+    } else
+        setTodo(origTodos);
   }
 
   function sortTodos() {
