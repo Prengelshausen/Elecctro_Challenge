@@ -1,20 +1,20 @@
 {
   "name": "server",
-  "version": "0.0.0",
-  "private": true,
+  "version": "1.0.0",
+  "description": "",
+  "main": "server.js",
   "scripts": {
-    "start": "nodemon ./bin/www"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "nodemon server.js"
   },
+  "author": "",
+  "license": "ISC",
   "dependencies": {
     "@hapi/hapi": "^20.2.2",
-    "cookie-parser": "~1.4.4",
-    "debug": "~2.6.9",
-    "express": "~4.16.1",
     "hapi-swagger": "^14.5.2",
     "joi": "^17.6.0",
     "knex": "^2.1.0",
-    "morgan": "~1.9.1",
-    "pg": "^8.7.3",
-    "postgres": "^3.2.4"
+    "nodemon": "^2.0.16",
+    "pg": "^8.7.3"
   }
 }

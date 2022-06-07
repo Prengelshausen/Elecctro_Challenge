@@ -1,0 +1,20 @@
+# GET http://localhost:3000/todos
+
+# DELETE http://localhost:3000/todos/1
+
+# POST http://localhost:3000/todos
+# content-type: application/json
+
+#  {
+#      "description": "Test",
+#      "state": false,
+#      "createdat": null,
+#      "completedat": null
+#  }
+
+PATCH http://localhost:3000/todos/3
+content-type: application/json
+
+ {
+     "description": "Test2",
+ }
