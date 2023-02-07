@@ -1,6 +1,6 @@
 # Elecctro Challenge
 
-This project is a todolist Application created with React.
+This project is a todolist Application created with React. A coding challenge given by Elecctro.
 
 ## /client 
 
